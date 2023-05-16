@@ -1,0 +1,31 @@
+{
+  "name": "backend_pharmacies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bufferutil": "^4.0.6",
+    "express": "^4.18.1",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.3",
+    "mongoose-unique-validator": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.5.2",
+    "utf-8-validate": "^5.0.9"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "fancy-log": "^1.3.3",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.0.1",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0"
+  }
+}
